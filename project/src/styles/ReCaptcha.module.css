@@ -1,0 +1,12 @@
+.recaptchaWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center align reCAPTCHA */
+    margin-top: -10px; /* Adjust spacing between input field and reCAPTCHA */
+  }
+  
+  .recaptcha {
+    width: auto; /* Ensure it doesn’t stretch unnaturally */
+    height: auto; /* Keep natural height */
+  }
+  

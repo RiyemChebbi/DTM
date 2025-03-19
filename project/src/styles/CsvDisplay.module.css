@@ -1,0 +1,28 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute; /* Position it freely without affecting other elements */
+    top: -350%; /* Move it to the middle */
+    left: 56%;
+    transform: translate(-50%, -50%); /* Perfect centering */
+    width: 10%;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 800px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  

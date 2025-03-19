@@ -1,0 +1,11 @@
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: auto; /* ✅ Allows scrolling if needed */
+  padding: 10px;
+  box-sizing: border-box;
+   /* For absolute positioning of child elements */
+}

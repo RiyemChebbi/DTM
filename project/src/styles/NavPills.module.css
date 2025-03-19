@@ -1,0 +1,70 @@
+.navPills {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+  }
+  @media (width<=991px) {
+    .navPills {
+      gap: 6px;
+    }
+  }
+  @media (width<=640px) {
+    .navPills {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  .pillactive {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    background-color: #142559;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add this line for drop shadow */
+    border: none; /* Ensure there's no border */
+   }
+  @media (width<=991px) {
+    .pillactive {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  @media (width<=640px) {
+    .pillactive {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  .pill {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add this line for drop shadow */
+    border: none; /* Ensure there's no border */
+}
+
+  @media (width<=991px) {
+    .pill {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  @media (width<=640px) {
+    .pill {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  

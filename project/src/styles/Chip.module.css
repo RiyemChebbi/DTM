@@ -1,0 +1,43 @@
+.chip {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  opacity: 0.8;
+  outline: none;
+}
+
+.chip:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.active {  /* Ensure this class exists */
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.teal {
+  background-color: #009688;
+}
+
+.yellow {
+  background-color: #cddc39;
+  color: black;
+}
+
+.orange {
+  background-color: #ff9800;
+}
+
+.darkBlue {
+  background-color: #041444;
+}
+
+.chipContainer {
+  display: flex;
+  gap: 10px;
+}

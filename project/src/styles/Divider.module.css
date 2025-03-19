@@ -1,0 +1,19 @@
+.divider {
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    display: flex;
+  }
+  
+  .dividerLine {
+    background-color: #c3c8cf;
+    flex: 1;
+    height: 1px;
+  }
+  
+  .dividerText {
+    color: #2e3339;
+    font-family: Sansation, sans-serif;
+    font-size: 12px;
+  }
+  

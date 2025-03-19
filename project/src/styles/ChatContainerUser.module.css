@@ -1,0 +1,13 @@
+/* ChatContainerUser.module.css */
+.chatContainerUser {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  justify-content: flex-end; /* Push the content to the bottom */
+  height: calc(100vh - 50vh);
+  height: 100vh; /* Ensure the container takes full viewport height */
+  padding: 10px;
+}
+
+.chatInputContainer {
+  margin-top: auto; /* Ensures that the input container is pushed to the bottom */
+}
